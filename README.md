@@ -1,5 +1,16 @@
 # api-breaking-change-detector
 
+Install ADK:
+
+```
+pip install google-adk
+```
+
+Run the following command to launch the dev UI.
+
+```
+adk web
+```
 
 
 ## Getting started
