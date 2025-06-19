@@ -3,7 +3,7 @@
 Install ADK:
 
 ```
-pip install google-adk gitingest
+ pip install -r requirements.txt
 ```
 
 Run the following command to launch the dev UI.
