@@ -2,7 +2,7 @@ FROM python:3.13-slim
 WORKDIR /app
 
 # Add this section right after the FROM line, before any pip installs.
-RUN apt-get update && apt-get install -y curl --no-install-recommends \
+RUN apt-get update && apt-get install -y curl git --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
